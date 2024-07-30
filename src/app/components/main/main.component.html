@@ -1,0 +1,6 @@
+<ul>
+    <div *ngFor="let chapter of chapterService.chapterSig()">
+        {{chapter.title}}
+    </div>
+</ul>
+<button (click)="addNewChapter()">Add new Chapter</button>
